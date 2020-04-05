@@ -2,7 +2,7 @@
 打印机状态和打印任务状态监控
 
 
-PrinterQueueMonitor printerMonitor = new PrinterQueueMonitor();
+            PrinterQueueMonitor printerMonitor = new PrinterQueueMonitor();
 
             printerMonitor.OnPrinterStatusChange += (o, e) => {
                 Console.WriteLine(o);
